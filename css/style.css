@@ -4,3 +4,86 @@
   box-sizing: border-box;
   font-family: 'Rubik', sans-serif;
 }
+
+/* <!-- MAIN CON FOTO DELLE VARIE CITTA --> */
+
+.container{
+  width: 1300px;
+  height: 100vh;
+  margin: 20px auto;
+}
+
+.box{
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  margin: 10px;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.box .info h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 30px;
+}
+
+.box .info .popup{
+  display: none;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  line-height: 28px;
+  background-color: #ff385c;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.box .info .popup a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.box:hover .info{
+  background-color: rgba(0, 0, 0, 0.51);
+}
+
+.box:hover .popup{
+  display: block;
+}
+
+.box .info .popup a:hover {
+  color: #ff385c;
+  background-color: white;
+}
+
+
+
+#newyork{
+  background-image: url('https://cdn.pixabay.com/photo/2015/07/10/17/23/skyline-839795_960_720.jpg');
+}
+
+#tokyo{
+  background-image: url('https://www.gotokyo.org/it/plan/tokyo-outline/images/main.jpg');
+}
+
+#sidney{
+  background-image: url('https://cdn.marcopolo.tv/960x480/media/post/rdr45ld/australia_10_cose_da_fare_a_sidney.jpg');
+}
