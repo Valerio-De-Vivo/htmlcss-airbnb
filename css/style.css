@@ -34,12 +34,27 @@ header{
   border: 2px solid white;
 }
 
+/* MENU LATERALE */
+nav{
+  width: 250px;
+  height: 900px;
+  margin-top: 20px;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  line-height: 60px;
+  color: #ff385c;
+}
+
+.menu h2{
+  border-bottom: 1px solid grey;
+}
+
 
 /* <!-- MAIN CON FOTO DELLE VARIE CITTA --> */
 
 .container{
   width: 1300px;
-  height: 100vh;
   margin: 20px auto;
 }
 .row{
