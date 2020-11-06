@@ -19,6 +19,7 @@
   display: inline-block;
   margin: 10px;
   background-size: cover;
+  background-position: center;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -86,4 +87,16 @@
 
 #sidney{
   background-image: url('https://cdn.marcopolo.tv/960x480/media/post/rdr45ld/australia_10_cose_da_fare_a_sidney.jpg');
+}
+
+#roma{
+  background-image: url('https://lh3.googleusercontent.com/proxy/oJ0IEiJije1_mgtfolZCgwETsJFHLzvGqQa3_z1y1CNTYs5Ylyx6-ioboDoUx5vORr-BvyVglKuSAE45DAHjlBamf-y1ibPMlqI31x0GkYdSJFhCj3FoCJI2QTHnENdBMomyJ9kYLg');
+}
+
+#napoli{
+  background-image: url('https://www.poli-listaperta.it/wp-content/uploads/2019/09/Panorama-di-Napoli-Gettyimages.jpg');
+}
+
+#firenze{
+  background-image: url('https://admin.pettinaviaggi.it/images/viaggi/bcdf71f8-17a6-4f47-881c-c5cb9d7acf82_bed-breakfast-firenze-11-1.jpg');
 }
