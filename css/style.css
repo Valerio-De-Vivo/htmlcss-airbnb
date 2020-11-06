@@ -5,12 +5,45 @@
   font-family: 'Rubik', sans-serif;
 }
 
+
+/* <!-- BARRA RICERCA --> */
+header{
+  width: 1250px;
+  height: 61px;
+  position: sticky;
+  top: 0%;
+  z-index: 1000;
+  margin: 10px auto;
+  background-color: #ff385c;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.search{
+  width: 1250px;
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+  padding: 10px;
+}
+
+.search p{
+  display: inline-block;
+  padding: 0 20px;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+
 /* <!-- MAIN CON FOTO DELLE VARIE CITTA --> */
 
 .container{
   width: 1300px;
   height: 100vh;
   margin: 20px auto;
+}
+.row{
+  text-align: center;
 }
 
 .box{
@@ -48,7 +81,7 @@
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  line-height: 28px;
+  line-height: 32px;
   background-color: #ff385c;
   padding: 10px;
   border-radius: 10px;
@@ -100,3 +133,17 @@
 #firenze{
   background-image: url('https://admin.pettinaviaggi.it/images/viaggi/bcdf71f8-17a6-4f47-881c-c5cb9d7acf82_bed-breakfast-firenze-11-1.jpg');
 }
+
+#parigi{
+  background-image: url('https://www.aviontourism.com/images/1920-900-fix/098209d6-fee9-46a4-ad20-9537adc8a38d');
+}
+
+#berlino{
+  background-image: url('https://i0.wp.com/auralcrave.com/wp-content/uploads/2020/02/berlin.jpg?resize=810%2C580&ssl=1');
+}
+
+#londra{
+  background-image: url('https://www.vivalingue.com/wp-content/uploads/2019/08/STUDIARE-A-LONDRA-1900x1080.jpg');
+}
+
+/* <!-- __________________________________________ --> */
